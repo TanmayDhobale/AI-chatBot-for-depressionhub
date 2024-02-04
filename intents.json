@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+      "Hello tanmay here , thanks for visiting",
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Depressionhub",
+      "patterns": [
+        "What does DepressionHUB do? ",
+        "How much DepressionHUB cost? ",
+        "What features DepressionHUB  have?"
+      ],
+      "responses": [
+        "Find people who are in the same emotional state as you, connect with them, and help each other navigate life's ups and downs. ",
+        "Our therapists offer services ranging from as low as Rs 10 per minute to Rs 250 per minute, based on their experience and dedication. ",
+        "DepressionHUB provides u  Anonymous Chat , 100% Trusted Therapist calls , learning Community "
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal , gpay , phonepay",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "call",
+      "patterns": [
+        "How long does call take?",
+        "How long i can talk to therpist on call?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2min to accept ",
+        " it depends on ur servies u choose and plan u have "
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
