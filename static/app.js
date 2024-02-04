@@ -60,7 +60,7 @@ onSendButton(chatBox) {
     })
     .then(response => response.json())
     .then(data => {
-        let msg2 = { name: "Sam", message: data.answer };
+        let msg2 = { name: "tanmay", message: data.answer };
         this.messages.push(msg2);
         this.updateChatText(chatBox);
         textField.value = '';
